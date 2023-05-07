@@ -1,0 +1,103 @@
+.wrapper {
+	width: 1440px;
+	position: relative;
+	padding: 20px 0 0 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	.wrapperForm {
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.select {
+			padding: 6px 15px;
+			border-radius: 10px;
+			background: rgb(87, 115, 208);
+			color: #fff;
+			font-size: 16px;
+			border: none;
+			outline: none;
+		}
+	}
+	.selectWrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.inputWrapper {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		.inputBox {
+			padding: 5px 20px 5px 7px;
+			border-radius: 10px;
+			background: rgb(87, 115, 208);
+			color: #fff;
+			font-size: 16px;
+			border: none;
+			outline: none;
+		}
+	}
+	.textArea {
+		padding: 20px 2px 2px 20px;
+		margin-top: 20px;
+		border-radius: 10px;
+		outline: none;
+		border: none;
+		resize: none;
+	}
+	.btnWrapper {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.wrapperViewResult {
+		padding-bottom: 10px;
+		width: 65%;
+		min-height: 250px;
+		margin-left: 40px;
+		background: rgb(222, 226, 255);
+		border-radius: 10px;
+		.wrapperList {
+			width: 100%;
+			margin-left: 10px;
+			margin-top: 10px;
+			min-height: 40px;
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			.listItem {
+				width: 120px;
+				margin-top: 5px;
+				margin-right: 20px;
+				list-style-type: none;
+			}
+			.comment {
+				display: block;
+				width: 120px;
+			}
+		}
+	}
+	.btnResetForm,
+	.btnSubmit {
+		padding: 6px 15px;
+		border-radius: 10px;
+		background: rgb(87, 115, 208);
+		color: #fff;
+		font-size: 16px;
+		border: none;
+		outline: none;
+	}
+	.datePicker,
+	.inputBox {
+		cursor: pointer;
+	}
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
